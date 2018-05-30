@@ -31,11 +31,11 @@ while True:
         if y == '0':
             print("LED OFF")
             ser.write(bytes('0', 'UTF-8'))
-            break
+            
         if y == '1':
             print("LED ON")
             ser.write(bytes('1', 'UTF-8'))
-            break
+           
     time.sleep(2)
     continue
     #if(z==2):
