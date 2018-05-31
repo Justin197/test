@@ -23,6 +23,18 @@ while True:
 
     if(z==9):
         print("jipi")
+        print('a')
+
+        root = Tk()
+
+        label = Label(root, text="Post!")
+        button = Button(root, text='quit', command=root.destroy)
+        button.pack()
+        label.pack()
+        print('b')
+        root.mainloop()
+        print('c')
+        
         y = input()
 
 
