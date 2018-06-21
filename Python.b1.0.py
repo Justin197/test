@@ -34,6 +34,6 @@ label1.pack()
 
 gucken()
 
-
+dad
 tk.mainloop()
 
